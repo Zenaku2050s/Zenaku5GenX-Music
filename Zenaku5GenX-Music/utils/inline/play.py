@@ -75,10 +75,12 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="🥰ʀᴇᴘʟᴀʏ[↻]🥰", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=SUPPORT_CHAT,
-            )
+                text=" 𝐎ᴡɴᴇʀ ", url=f"https://t.me/NhoeKyaiteKaungLayy"
+            ),
+            InlineKeyboardButton(
+                text=" 𝐂ʜᴀᴛ ", url=f"https://t.me/seriousvs_version10"
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
